@@ -8,6 +8,12 @@ import ImageDetail from './image_detail';
 
 // 2. Create Component
 
+const IMAGES = [
+   { title: 'pen' },
+   { title: 'pine tree' },
+   { title: 'mug' }
+]
+
 const ImageList = () => {
    return (
    <ul>

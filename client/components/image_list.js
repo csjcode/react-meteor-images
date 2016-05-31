@@ -9,9 +9,9 @@ import ImageDetail from './image_detail';
 // 2. Create Component
 
 const IMAGES = [
-   { title: 'pen' },
-   { title: 'pine tree' },
-   { title: 'mug' }
+   { title: 'pen', link:'http://dummyimage.com/600x400' },
+   { title: 'pine tree', link:'http://dummyimage.com/600x400' },
+   { title: 'mug', link:'http://dummyimage.com/600x400' }
 ]
 
 const ImageList = () => {

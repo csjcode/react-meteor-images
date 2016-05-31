@@ -20,7 +20,7 @@ const ImageList = () => {
    });
 
    return (
-      <ul>
+      <ul className="media-list list-group">
          {RenderedImages}
       </ul>
    );

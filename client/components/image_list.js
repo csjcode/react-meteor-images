@@ -4,13 +4,14 @@
 // 1. Import react
 
 import React from 'react';
+import ImageDetail from './image_detail';
 
 // 2. Create Component
 
-const imageList = () => {
+const ImageList = () => {
    return (
    <ul>
-      <li>Image Profile</li>
+      <ImageDetail />
    </ul>
    )
 }

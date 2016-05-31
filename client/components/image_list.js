@@ -9,22 +9,22 @@ import ImageDetail from './image_detail';
 // 2. Create Component
 
 const IMAGES = [
-   { title: 'pen', link:'http://dummyimage.com/600x400' },
-   { title: 'pine tree', link:'http://dummyimage.com/600x400' },
-   { title: 'mug', link:'http://dummyimage.com/600x400' }
+   { title: 'pen', link:'http://dummyimage.com/600x400'},
+   { title: 'pine tree', link:'http://dummyimage.com/600x400'},
+   { title: 'mug', link:'http://dummyimage.com/600x400'}
 ];
 
-const RenderedImages =  IMAGES.map(function(image){
-   return <ImageDetail image={image} />
-});
-
 const ImageList = () => {
+   const RenderedImages =  IMAGES.map(function(image){
+      return <ImageDetail image={image} />
+   });
+
    return (
-   <ul>
-      {RenderedImages}
-   </ul>
-   )
-}
+      <ul>
+         {RenderedImages}
+      </ul>
+   );
+};
 
 // 3. Export Component
 

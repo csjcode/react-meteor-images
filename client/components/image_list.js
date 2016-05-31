@@ -3,15 +3,17 @@
 // 1. Import react
 
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 // 2. Create Component
 
 const imageList = () => {
    return (
    <ul>
+      <li>Image Profile</li>
    </ul>
    )
 }
 
 // 3. Export Component
+
+export default ImageList;

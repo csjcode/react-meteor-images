@@ -12,12 +12,16 @@ const IMAGES = [
    { title: 'pen', link:'http://dummyimage.com/600x400' },
    { title: 'pine tree', link:'http://dummyimage.com/600x400' },
    { title: 'mug', link:'http://dummyimage.com/600x400' }
-]
+];
+
+const RenderedImages =  IMAGES.map(function(image){
+   return <ImageDetail />
+});
 
 const ImageList = () => {
    return (
    <ul>
-      <ImageDetail />
+      {RenderedImages}
    </ul>
    )
 }

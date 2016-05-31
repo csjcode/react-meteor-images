@@ -5,7 +5,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ImageList from './components/image_list';
-import ImageDetail from './components/image_detail';
 
 // Create React component
 

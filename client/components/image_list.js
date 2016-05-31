@@ -16,7 +16,7 @@ const IMAGES = [
 
 const ImageList = () => {
    const RenderedImages =  IMAGES.map(function(image){
-      return <ImageDetail image={image} />
+      return <ImageDetail key={image.title} image={image} />
    });
 
    return (

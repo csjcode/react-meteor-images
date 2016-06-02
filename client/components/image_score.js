@@ -4,11 +4,13 @@ const ImageScore = (props) => {
    // props.ups - upvotes
    // props.downs - downvotes
 
+   const { ups, downs} = props;
+   // ES6 same as ups=props.ups and downs = props.downs
+   
    const upsPercent = `${100 * (ups / (ups+downs))}%`;
    const downsPercent = `${100 * (downs / (ups+downs))}%`;
 
-   const { ups, downs} = props;
-   // ES6 same as ups=props.ups and downs = props.downs
+
 
    return (
       <div>
